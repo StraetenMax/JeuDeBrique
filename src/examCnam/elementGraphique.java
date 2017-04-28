@@ -20,6 +20,21 @@ public class elementGraphique {
 		largeur = cLargeur;
 	}
 	
+	//getteur
+	public String getNom(){
+		return nom;
+	}
+	
+	public int getHauteur(){
+		return hauteur;
+	}
+	
+	public int getLargeur(){
+		return largeur;
+	}
+	
+	//setteur
+	
 	
 	
 }
