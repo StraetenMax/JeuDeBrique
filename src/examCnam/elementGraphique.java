@@ -34,6 +34,34 @@ public class elementGraphique {
 	}
 	
 	//setteur
+	public void setNom(String vNom){
+		nom = vNom;
+	}
+	
+	public void setHauteur(int vHauteur){
+		hauteur = vHauteur;
+	}
+	
+	public void setLargeur(int vLargeur){
+		largeur = vLargeur;
+	}
+	
+	//methodes
+	public String afficher(){
+		String txt = "Element affiché";
+		return txt;
+	}
+	
+	public String masquer(){
+		String txt1 = "Element masqué";
+		return txt1;	
+	}
+	
+	public String decrire(){
+		String txt2 = "Element graphique nommé : "+this.getNom()+" qui a "+this.getHauteur()+" pixels de haut et "+this.getLargeur()+" pixels de large ou "+this.getNom()+" est le nom, "+this.getHauteur()+" la hauteur et "+this.getLargeur()+" la largeur";
+		return txt2;
+	}
+	
 	
 	
 	
