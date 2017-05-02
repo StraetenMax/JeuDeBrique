@@ -23,5 +23,17 @@ public class mur extends elementFixe{
 		couleur = pCouleur;
 	}
 	//methodes
-	
+	public boolean plusHautQue(mur bMur){
+		boolean bhaut;
+		if(bMur.getHauteur()>this.getHauteur()){
+			bhaut = false;
+		}else{
+			bhaut = true;
+		}
+		return bhaut;
+	}
+	public String decrire(){
+		String def = super.decrire()+" qui est de couleur "+this.getCouleur();
+		return def;
+	}
 }
