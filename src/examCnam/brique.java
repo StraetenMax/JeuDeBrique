@@ -37,4 +37,21 @@ public class brique extends elementFixe{
 		}
 		
 	}
+	
+	//méthodes
+	public boolean estMoinsAbimeeQue(brique Pbrik){
+		boolean bmaq;
+		
+		if(Pbrik.getNiveau() < this.getNiveau()){
+			bmaq= false;
+		}else {
+			bmaq= true;
+		}
+		return bmaq;
+	}
+	
+	public String decrire(){
+		String bmaq1 = super.decrire()+" dont le niveau est de "+this.getNiveau();
+		return bmaq1;		
+	}
 }
