@@ -42,6 +42,6 @@ public class elementFixe extends elementGraphique{
 	}
 	
 	
-	
+
 	
 }
